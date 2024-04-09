@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<!-- 在html标签内加入Thymeleaf名称空间的声明 -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p style="color: red" th:text="${errorMsg}"></p>
+<br th:if="${errorMsg == null}">
+</body>
+</html>
